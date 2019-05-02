@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    
+     <!--custom css-->
+    <link rel="stylesheet" href="../css/main.css">
+    
+    
+   <!-- Muli & Lato Font CDN -->
+   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+    <!--Fontawsome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <!--Jquery CDN  -->
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    
+    <!--custom js-->
+    <script src="../js/main.js"></script>
+    
+</head>
+<body>
+    <!-- Top Navigation -->
+    
+    <nav class="navbar navbar-fixed-top">
+        <div class="container padding15">
+            <a href="index.html"><img class="navLogo" src="../images/Logo-01.png" width="211px" height="49px"></a>
+            
+            <ul class="nav navbar-nav navbar-right mt10">
+              <li><div class="navbar-header">
+                <button type="button" class="hamburger is-closed"  onclick="openNav()" style="z-index: auto;">
+                    <span class="hamb-top"></span>
+                    <span class="hamb-middle"></span>
+                    <span class="hamb-bottom"></span>
+                </button>
+            </div></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Top Navigation -->
+    
+    <!-- Side Navigation -->
+    
+    <div id="mySidenav" class="sidenav">
+        <div id="navContent" class="sidenavContent ">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">Home</a>
+          <a href="#">CERTIFICATION PROGRAM</a>
+          <a href="#">EARNING OPPORTUNITIES</a>
+          <a href="#">PEOPLE</a>
+          <a href="../pages/signin.html">SIGIN IN</a>
+            <div class="row sidenavBottom">
+                <div class="col-md-7 mt230">
+                    <p>hello@emaester.com</p>
+                    <p>+91 9010-604-830</p>
+                </div>
+                <div class="col-md-5 mt155 ml-60">
+                    <img src="../images/sidenav.png" width="180px" height="180px">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Side Navigation -->
+    
+    <!-- Page Content -->
+    <section class="faqBackground">
+        <div class="container">
+            <div class="landing mt215">
+                <h1 class="textBlue mb25">FREQUENTLY ASKED QUESTIONS</h1>
+                <p class="textBlue">Have questions regarding the program? Find answers to all your doubts here!</p>
+            </div>    
+        </div>
+    </section>
+    <section>
+        <div class="container mb40">
+            <h2 class="textCenter textBold textBlue mt60">HAVE QUESTIONS ABOUT</h2>
+            <div class="row mt40">
+                <div class="col-md-3"></div>
+                <div class="col-md-3 faqBox">
+                    <img src="../images/faq2.png" class="imgCenter">
+                    <p class="textCenter textBlue">CIRTIFICATION <br>PROGRAM</p>
+                </div>
+                <div class="col-md-3 faqBox ml35">
+                    <img src="../images/faq3.png" class="imgCenter">
+                    <p class="textCenter textBlue">EARNING <br>OPPORTUNITIES</p>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container  mobilePanel">
+            <div class="panel-group">
+                <div class="panel panel-default outerPanel mt60 mb60">
+                  <div class="panel-heading questionsHead"><img src="../images/faq2.png" width="34px" height="40px" class="inline"> <h5 class="inline">CIRTIFICATION PROGRAM</h5></div>
+                  <div class="panel-body questionsPanelDes">
+                      <div class="panel-group" id="accordion">
+                          <div class="panel">
+                            <div class="panel-heading">
+                              <h4 class="panel-title inline">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="questionsPlus">
+                                How much time does it take to register and start for this course? </a>
+                              </h4>
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse">
+                              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                              minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                              commodo consequat.</div>
+                            </div>
+                          </div>
+                          <div class="panel">
+                            <div class="panel-heading">
+                              <h4 class="panel-title inline">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="questionsPlus">
+                                Are there any pre requisites for this course? </a>
+                              </h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse">
+                              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                              minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                              commodo consequat.</div>
+                            </div>
+                          </div>
+                          <div class="panel">
+                            <div class="panel-heading">
+                              <h4 class="panel-title inline">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="questionsPlus">
+                                How much time does it take to register and start for this course?</a>
+                              </h4>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse">
+                              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                              minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                              commodo consequat.</div>
+                            </div>
+                          </div>
+                          <div class="panel">
+                            <div class="panel-heading">
+                              <h4 class="panel-title inline">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="questionsPlus">
+                                 How much time does it take to register and start for this course? </a>
+                              </h4>
+                            </div>
+                            <div id="collapse4" class="panel-collapse collapse in">
+                              <div class="panel-body "> <p class="questionsDescription">Velit cras vivamus aut lacus! Ut, feugiat commodi, voluptatem quia minus! Amet per iaculis litora temporibus tempora repudiandae! Repellat nec vulputate sint pretium felis porta, laoreet anim. Magna quis eum.</p></div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                </div>
+                <div class="panel panel-default outerPanel mb60">
+                  <div class="panel-heading questionsHead "><img src="../images/faq3.png" width="34px" height="40px" class="inline"> <h5 class="inline">EARNING OPPORTUNITIES</h5></div>
+                  <div class="panel-body questionsPanelDes">
+                      <div class="panel-group" id="accordion1">
+                          <div class="panel">
+                            <div class="panel-heading">
+                              <h4 class="panel-title inline">
+                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse5" class="questionsPlus">
+                                How much time does it take to register and start for this course? </a>
+                              </h4>
+                            </div>
+                            <div id="collapse5" class="panel-collapse collapse">
+                              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                              minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                              commodo consequat.</div>
+                            </div>
+                          </div>
+                          <div class="panel">
+                            <div class="panel-heading">
+                              <h4 class="panel-title inline">
+                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse6" class="questionsPlus">
+                                Are there any pre requisites for this course? </a>
+                              </h4>
+                            </div>
+                            <div id="collapse6" class="panel-collapse collapse">
+                              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                              minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                              commodo consequat.</div>
+                            </div>
+                          </div>
+                          <div class="panel">
+                            <div class="panel-heading">
+                              <h4 class="panel-title inline">
+                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse7" class="questionsPlus">
+                                How much time does it take to register and start for this course?</a>
+                              </h4>
+                            </div>
+                            <div id="collapse7" class="panel-collapse collapse">
+                              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                              minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                              commodo consequat.</div>
+                            </div>
+                          </div>
+                          <div class="panel">
+                            <div class="panel-heading">
+                              <h4 class="panel-title inline">
+                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse8" class="questionsPlus">
+                                 How much time does it take to register and start for this course? </a>
+                              </h4>
+                            </div>
+                            <div id="collapse8" class="panel-collapse collapse in">
+                              <div class="panel-body "> <p class="questionsDescription">Velit cras vivamus aut lacus! Ut, feugiat commodi, voluptatem quia minus! Amet per iaculis litora temporibus tempora repudiandae! Repellat nec vulputate sint pretium felis porta, laoreet anim. Magna quis eum.</p></div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <div class="container">
+            <img src="../images/Logo-01.png" width="298px" height="69px">
+            <p class="tagLine textBlue">A PRODUCT OF uFABER</p>
+            <div class="row foooter">
+                <div class="col-md-6 rightBorder">
+                    <p>FF-006, Art Guild House, Phoenix Market City, Kurla, Mumbai - 400 070</p>
+                    <p class="inline innerPara"><i class="fas fa-mobile-alt"></i>+918080-555-766</p>
+                    <p class="inline"><i class="far fa-envelope"></i>hello@ufaber.com</p>
+                </div>
+                <div class="col-md-5">
+                    <p>FOLLOW US</p>
+                    <a><i class="fab fa-facebook-f socialIcons"></i></a>
+                    <a><i class="fab fa-youtube socialIcons" style="    padding: 6px 6px;"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="backgroundBlue subFooter">
+                <p class="textCenter">2018	&#9400; uFaber, All rights reserver uFaber Edutech</p>
+            </div>
+    </section>
+    <!-- /#page-conten -->
+</body>
+</html> 

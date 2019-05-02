@@ -1,0 +1,378 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    
+}
+.padding15{
+    padding: 15px 15px;
+}
+.mb0{
+    margin-bottom: 0px !important;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mb25{
+    margin-bottom: 25px;
+}
+.ml35{
+    margin-left: 35px;
+}
+.mt40{
+    margin-top: 40px;
+}
+.mb40{
+    margin-bottom: 40px;
+}
+.m55-100{
+    margin: 55px 100px;
+}
+.mt60{
+    margin-top: 60px;
+}
+.ml-60{
+    margin-left: -60px;
+}
+.mt85{
+    margin-top: 85px;
+}
+.m100{
+    margin: 80px 100px;
+}
+.mt155{
+    margin-top: 155px;
+}
+.mt215{
+    margin-top: 215px;
+}
+.mt230{
+    margin-top: 230px;
+}
+.textBlue{
+    color: #451B71;
+}
+.backgroundBlue{
+    background: #572b7f;
+}
+.inline{
+    display: inline;
+}
+.textCenter{
+    text-align: center;
+}
+.imgCenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.landing{
+    text-align: center;
+}
+.landing h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+.landing p{
+    font-size: 18px;
+    opacity: 0.8;
+}
+.textBold{
+    font-weight: 600;
+}
+/*-------------------------------*/
+/*     Topr nav styles        */
+/*-------------------------------*/
+
+
+/*-------------------------------*/
+/*     Sidebar nav styles        */
+/*-------------------------------*/
+
+/* width */
+.sidenav::-webkit-scrollbar {
+  display: none !important;
+}
+.sidenav {
+    overflow-y: scroll;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1100;
+  top: 0;
+  right:0;
+  background: #FFFFFF;
+box-shadow: 2px 0px 8px rgba(51, 51, 51, 0.25);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 25px;
+}
+.sidenavhead{
+    pointer-events: none; 
+    position: absolute;
+    top: 10px;
+    font-weight: 600;
+font-size: 14px !important;
+line-height: 22px  !important;
+color: rgba(51, 51, 51, 0.6)  !important;
+}
+
+.sidenav a, .sidenav p {
+  padding: 8px 32px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+line-height: 38px;
+  color: #572b7f;
+  display: block;
+  transition: 0.3s;
+    font-style: normal;
+font-weight: bold;
+}
+.sidenav p{
+   font-size: 16px;
+    margin-bottom: 0px;
+    padding: 0px 15px;
+}
+.sidenav a span{
+    float: right;
+    background: #3E41BF;
+    border-radius: 2px;
+    font-size: 8px;
+}
+.sidenav a:hover {
+  color: #7f8c8d;
+    text-decoration: none;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  right: 0px;
+  font-weight: bold;
+font-size: 28px;
+line-height: 22px;
+  margin-left: 50px;
+    color: rgba(51, 51, 51, 0.4);
+}
+
+.sidenavContent{
+    display: none;
+}
+.sidenavBottom{
+    vertical-align: bottom;
+   display: table-cell;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*-------------------------------*/
+/*       Hamburger-Cross         */
+/*-------------------------------*/
+
+.hamburger {
+  z-index: auto;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border: none;
+}
+.hamburger:hover,
+.hamburger:focus,
+.hamburger:active {
+  outline: none;
+    cursor: pointer;
+}
+
+.hamburger.is-closed .hamb-top,
+.hamburger.is-closed .hamb-middle,
+.hamburger.is-closed .hamb-bottom{
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+}
+.hamburger.is-closed .hamb-top,
+.hamburger.is-closed .hamb-middle,
+.hamburger.is-closed .hamb-bottom {
+  background-color: #1a1a1a;
+}
+.hamburger.is-closed .hamb-top { 
+  top: 7px; 
+  -webkit-transition: all .35s ease-in-out;
+}
+.hamburger.is-closed .hamb-middle {
+  top: 50%;
+  margin-top: -2px;
+}
+.hamburger.is-closed .hamb-bottom {
+  bottom: 9px;  
+  -webkit-transition: all .35s ease-in-out;
+}
+
+.hamb-menu-top{
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    font-size: 11px;
+    margin-bottom: 13px;
+}
+/*-------------------------------*/
+/*      Landing page             */
+/*-------------------------------*/
+.landingBackground{
+     background: white url("../images/") no-repeat center; 
+        background-size: cover;
+}
+/*-------------------------------*/
+/*      Sign in page             */
+/*-------------------------------*/
+.form-control{
+        padding: 25px 12px;
+    font-size: 15px;
+    width: 80%;
+}
+.signin h1{
+        font-weight: 800;
+    font-size: 42px;
+}
+.signin p{
+        font-size: 16px;
+    margin-bottom: 0px;
+}
+.signin a{
+    font-weight: 600;
+}
+.signBtn{
+    width: 80%;
+    background: #572b7f;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: 0px;
+    padding: 15px;
+}
+.btn.focus, .btn:focus, .btn:hover{
+    color: #fdeaef;
+}
+.signinSupportImg{
+        margin-left: -44px;
+    margin-top: -33px;
+    margin-bottom: 5px;
+}
+/*-------------------------------*/
+/*          FAQ page             */
+/*-------------------------------*/
+.faqBackground{
+    background: white url("../images/faq1.png") no-repeat center; 
+        background-size: 100% 652px;
+        height: 652px;
+    width: 100%;
+}
+.faqBox{
+        border: 2px solid #ffe8ee;
+    border-radius: 13px;
+    padding-top: 35px;
+}
+.faqBox p{
+        padding: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.questionsPlus{
+    font-size: 16px;
+line-height: 24px;
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+color: #333333;
+    text-decoration: none;
+}
+.questionsPlus:before {
+  content: "\2212";
+  color: #777;
+  font-weight: bold;
+    display: inline;
+    margin-right: 10px;
+}
+.questionsPlus.collapsed:before {
+    content: '\002B';
+}
+.questionsHead{
+        background-color: #ffe8ee !important;
+        padding: 10px 65px;
+}
+.questionsHead h5{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+    color: #451B71;
+}
+.questionsHead img{
+    margin-top: -10px;
+    margin-right: 10px
+}
+.panel-body{
+    border-top: 0px !important;
+    
+}
+.panel{
+        border-bottom: 1px solid #ffe8ee;
+}
+.outerPanel{
+    border: 2px solid #ffe8ee;
+    margin-bottom: 40px !important;
+}
+.questionsPanelDes{
+    margin: 0px 100px;
+}
+.questionsDescription{
+    font-size: 16px;
+line-height: 29px;
+    margin-left: 25px;
+color: rgba(0, 0, 0, 0.6);
+}
+a:focus, a:hover{
+    text-decoration: none;
+}
+/*-------------------------------*/
+/*          Footer page          */
+/*-------------------------------*/
+.tagLine{
+        font-size: 16px;
+    letter-spacing: 6px;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+.foooter{
+    margin-left: -10px;
+        margin-top: 30px;
+    margin-bottom: 20px;
+}
+.foooter .innerPara{
+        margin-right: 10px;
+    border-right: 1px solid;
+    padding-right: 15px;
+}
+.foooter .rightBorder{
+        border-right: 1px solid;
+}
+.foooter p{
+    font-size: 16px;
+}
+.foooter i{
+    margin-right: 10px
+}
+.socialIcons{
+        padding: 6px 10px;
+    background-color: #f17492;
+    border-radius: 15px;
+    color: white;
+}
+.subFooter{
+        margin: 0px;
+    color: white;
+    padding: 15px 0px;
+}

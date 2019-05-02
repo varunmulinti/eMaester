@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    
+     <!--custom css-->
+    <link rel="stylesheet" href="../css/main.css">
+    
+    
+   <!-- Muli & Lato Font CDN -->
+   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+    <!--Fontawsome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <!--Jquery CDN  -->
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    
+    <!--custom js-->
+    <script src="../js/main.js"></script>
+    
+</head>
+<body>
+    <!-- Top Navigation -->
+    
+    <nav class="navbar navbar-fixed-top">
+        <div class="container padding15">
+            <a href="../index.html"><img class="navLogo" src="../images/Logo-01.png" width="211px" height="49px"></a>
+            
+            <ul class="nav navbar-nav navbar-right mt10">
+              <li><div class="navbar-header">
+                <button type="button" class="hamburger is-closed"  onclick="openNav()" style="z-index: auto;">
+                    <span class="hamb-top"></span>
+                    <span class="hamb-middle"></span>
+                    <span class="hamb-bottom"></span>
+                </button>
+            </div></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Top Navigation -->
+    
+    <!-- Side Navigation -->
+    
+    <div id="mySidenav" class="sidenav">
+        <div id="navContent" class="sidenavContent ">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">Home</a>
+          <a href="#">CERTIFICATION PROGRAM</a>
+          <a href="#">EARNING OPPORTUNITIES</a>
+          <a href="#">PEOPLE</a>
+          <a href="pages/signin.html">SIGIN IN</a>
+            <div class="row sidenavBottom">
+                <div class="col-md-7 mt230">
+                    <p>hello@emaester.com</p>
+                    <p>+91 9010-604-830</p>
+                </div>
+                <div class="col-md-5 mt155 ml-60">
+                    <img src="../images/sidenav.png" width="180px" height="180px">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Side Navigation -->
+    
+    <!-- Page Content -->
+   
+    <section class=" mt85 signin">
+        <div class="container">
+            <div class="row m55-100 mb0">
+                <div class="col-md-6">
+                    <h1 class="textBlue inline">SIGN UP</h1><img src="../images/signin1.png" class="inline signinSupportImg" width="73px" height="73px;">
+                    <p>Already a Member? <a href="signin.html" class="textBlue">SIGN IN</a></p>
+                    <img src="../images/signup.png" class="mt40" width="429px" height="350px">
+                </div>
+                <div class="col-md-6 mt40">
+                    <form>
+                        <div class="form-group mb25">
+                          <input type="text" class="form-control" id="name" placeholder="Name" name="Name">
+                        </div>
+                        <div class="form-group mb25">
+                          <input type="email" class="form-control" id="email" placeholder="Email ID" name="email">
+                        </div>
+                        <div class="form-group mb25">
+                          <input type="password" class="form-control" id="pwd" placeholder="Password" name="pwd">
+                        </div>
+                        <div class="form-group mb25">
+                          <input type="password" class="form-control" id="pwd1" placeholder="Confirm Password" name="pwd">
+                        </div>
+                        <div class="form-group mb25">
+                          <input type="number" class="form-control" id="phn" placeholder="Phone No." name="phn">
+                        </div>
+                        <button class="backgroundBlue btn signBtn">SIGN IN</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- /#page-conten -->
+
+</body>
+</html> 
