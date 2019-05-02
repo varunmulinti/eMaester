@@ -43,6 +43,9 @@ h1{
 .mb40{
     margin-bottom: 40px;
 }
+.ml50{
+    margin-left: 50px;
+}
 .m55-100{
     margin: 55px 100px;
 }
@@ -81,6 +84,9 @@ h1{
 }
 .pl30{
     padding-left: 30px;
+}
+.p50{
+    padding: 50px;
 }
 .textBlue{
     color: #451B71 !important;
@@ -289,8 +295,14 @@ line-height: 22px;
 /*      Landing page             */
 /*-------------------------------*/
 .landingBackground{
-     background: white url("../images/") no-repeat center; 
+     background: url("../images/") no-repeat center; 
         background-size: cover;
+}
+.working{
+    background: url("../images/landing2.png") no-repeat center; 
+    background-size: 1220px 1092px;
+    width: 1220px;
+    height: 1092px;
 }
 /*-------------------------------*/
 /*      Sign in page             */
