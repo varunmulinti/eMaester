@@ -22,6 +22,9 @@ h1{
 .mt20{
     margin-top: 20px;
 }
+.mt25{
+    margin-top: 25px !important;
+}
 .mb25{
     margin-bottom: 25px !important;
 }
@@ -34,6 +37,9 @@ h1{
 .mb30{
     margin-bottom: 30px;
 }
+.ml-35{
+    margin-left: -35px;
+}
 .ml35{
     margin-left: 35px;
 }
@@ -42,6 +48,9 @@ h1{
 }
 .mb40{
     margin-bottom: 40px;
+}
+.mr50{
+    margin-right: 50px;
 }
 .ml50{
     margin-left: 50px;
@@ -55,11 +64,17 @@ h1{
 .mb60{
     margin-bottom: 60px;
 }
+.mt80{
+    margin-top: 80px;
+}
 .ml-60{
     margin-left: -60px;
 }
 .mt85{
     margin-top: 85px;
+}
+.mt100{
+    margin-top: 100px;
 }
 .m100{
     margin: 80px 100px;
@@ -75,6 +90,9 @@ h1{
 }
 .mt230{
     margin-top: 230px;
+}
+.mt240{
+    margin-top: 240px;
 }
 .mlr100{
    margin: 0px 100px; 
@@ -112,7 +130,7 @@ h1{
 }
 .textSize1{
     font-size: 18px;
-        line-height: 26px;
+        line-height: 32px;
 }
 .textSize2{
     font-size: 20px;
@@ -549,6 +567,12 @@ color: #333333;
 /*-------------------------------*/
 /*      Earning page             */
 /*-------------------------------*/
+.earningBackground{
+    background: white url("../images/earning1.png") no-repeat center; 
+        background-size: 100% 655px;
+        height: 655px;
+    width: 100%;
+}
 .earningImgDiv{
         width: 150px;
     background: #ffe8ee;
@@ -576,4 +600,22 @@ color: #333333;
 .getStudentsBox{
         margin-top: 62px;
     margin-bottom: 62px;
+}
+/*-------------------------------*/
+/*        About page             */
+/*-------------------------------*/
+.aboutBackground{
+    background: white url("../images/aboutus.png") no-repeat center; 
+        background-size: 100% 655px;
+        height: 655px;
+    width: 100%;
+}
+.headingCenter1{
+    margin: 0px 135px;
+}
+.about{
+    margin: 40px 130px;
+}
+.about h2{
+    line-height: 40px;
 }
