@@ -175,6 +175,9 @@ h1{
 .textNormal{
     text-align: left;
 }
+.pointerCursor{
+    cursor: pointer;
+}
 /*-------------------------------*/
 /*     Topr nav styles        */
 /*-------------------------------*/
@@ -331,6 +334,16 @@ line-height: 22px;
 }
 .landingWorks{
     padding: 15px 20px;
+}
+.landingText h2{
+    font-size: 38px;
+}
+.landingText h1{
+    font-size: 55px;
+}
+.landingPlay{
+    margin-left: 160px !important;
+    opacity: 0.6;
 }
 /*-------------------------------*/
 /*      Sign in page             */

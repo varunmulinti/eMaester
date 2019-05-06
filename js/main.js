@@ -11,6 +11,22 @@ function closeNav() {
   $("#mySidenav").css('width', '0px');
      
 }
+
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 50) {
+	    $(".navbar").css("background" , "#ffe8ee");
+	  }
+
+	  else{
+		  $(".navbar").css("background" , "transparent");  	
+	  }
+  })
+})
+
+
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
   /*loop through a collection of all HTML elements:*/
