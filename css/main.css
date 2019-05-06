@@ -76,6 +76,9 @@ h1{
 .mt85{
     margin-top: 85px;
 }
+.mb100{
+    margin-bottom: 100px;
+}
 .mt100{
     margin-top: 100px;
 }
@@ -87,6 +90,9 @@ h1{
 }
 .mt155{
     margin-top: 155px;
+}
+.mt170{
+    margin-top: 170px;
 }
 .mt215{
     margin-top: 215px;
@@ -181,7 +187,9 @@ h1{
 /*-------------------------------*/
 /*     Topr nav styles        */
 /*-------------------------------*/
-
+.navbar{
+    transition: background 0.2s ease-out 0.2s;
+}
 
 /*-------------------------------*/
 /*     Sidebar nav styles        */
@@ -329,8 +337,8 @@ line-height: 22px;
 }
 .working{
     background: url("../images/landing2.png") no-repeat center; 
-    background-size: 100% 950px;
-    height: 950px;
+    background-size: 100% 97%;
+    height: 97%;
 }
 .landingWorks{
     padding: 15px 20px;
@@ -344,6 +352,11 @@ line-height: 22px;
 .landingPlay{
     margin-left: 160px !important;
     opacity: 0.6;
+}
+.learnMore{
+    background: url("../images/landing9.png") no-repeat center; 
+    background-size: 100% 325px;
+    height: 325px;
 }
 /*-------------------------------*/
 /*      Sign in page             */
