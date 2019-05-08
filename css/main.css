@@ -128,7 +128,7 @@ h1{
     background-color: #ffe8ee;
 }
 .inline{
-    display: inline;
+    display: inline !important;
 }
 .textCenter{
     text-align: center;
@@ -192,7 +192,6 @@ h1{
 /*-------------------------------*/
 .navbar{
     transition: background 0.2s ease-out 0.2s;
-        border: 0px solid transparent
 }
 
 /*-------------------------------*/
@@ -758,6 +757,9 @@ color: #333333;
     .mpl15{
         padding-left: 15px;
     }
+    .mmt-100{
+        margin-top: -100px;
+    }
     .headingSupportImg{
         width: 40px;
         height: 40px;
@@ -773,7 +775,7 @@ color: #333333;
         font-size: 14px;
             line-height: 22px;
     }
-    .textSize2{
+    .textSize2, .mobileTextSize2{
         font-size: 16px;
     }
     .mobileStats{
@@ -795,7 +797,7 @@ color: #333333;
         height: 70px;
     }
     .landing h1{
-        font-size: 32px;
+        font-size: 25px;
     }
     .landing p, .questionsDescription, .questionsPlus{
         font-size: 14px;
@@ -835,5 +837,18 @@ color: #333333;
     }
     .carousel-control.left{
         left: -7px;
+    }
+    .earningBackground {
+        background: white url(../images/earning7.png) no-repeat center;
+        height: 640px;
+    }
+    .earningImgDiv{
+        margin-left: 100px;
+    }
+    .font19{
+        font-size: 19px;
+    }
+    .getStudents img{
+        width: 150px;
     }
 }
