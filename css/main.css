@@ -128,7 +128,7 @@ h1{
     background-color: #ffe8ee;
 }
 .inline{
-    display: inline !important;
+    display: inline ;
 }
 .textCenter{
     text-align: center;
@@ -696,7 +696,7 @@ color: #333333;
     .hamburger{
         right: 20px;
     }
-    .curriculum, .optionalFaq, .headingCenter, .certificationHeadingCenter1, .certificationHeadingCenter2, .earningHeadingCenter1, .earningHeadingCenter2, .mlr100, .getStudentsPara, .earningHeadingCenter4, .ml50{
+    .curriculum, .optionalFaq, .headingCenter, .certificationHeadingCenter1, .certificationHeadingCenter2, .earningHeadingCenter1, .earningHeadingCenter2, .mlr100, .getStudentsPara, .earningHeadingCenter4, .ml50, .mr50, .about{
         margin: 0px;
     }
     .landingBackground{
@@ -757,6 +757,9 @@ color: #333333;
     .mpl15{
         padding-left: 15px;
     }
+    .mmt65{
+        margin-top: 65px;
+    }
     .mmt-100{
         margin-top: -100px;
     }
@@ -777,6 +780,15 @@ color: #333333;
     }
     .textSize2, .mobileTextSize2{
         font-size: 16px;
+    }
+    .textSize3{
+        font-size: 18px;
+    }
+    .mobileinline{
+        display: inline;
+    }
+    .mobileTextCenter{
+        text-align: center;
     }
     .mobileStats{
         padding: 20px 0px;
@@ -850,5 +862,30 @@ color: #333333;
     }
     .getStudents img{
         width: 150px;
+    }
+    .aboutBackground {
+        background: white url(../images/about6.png) no-repeat center;
+        height: 640px;
+    }
+    .aboutImg1{
+        width: 165px;
+    }
+    .founderimg{
+        width: 125px;
+        height: 125px;
+    }
+    .about{
+        padding-bottom: 25px;
+    }
+    .about img{
+        width: 65px;
+    }
+    .about h2{
+        line-height: 30px;
+        font-size: 18px;
+    }
+    .faqBackground {
+        background: white url(../images/faq4.png) no-repeat center;
+        height: 640px;
     }
 }
