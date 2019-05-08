@@ -184,11 +184,15 @@ h1{
 .pointerCursor{
     cursor: pointer;
 }
+.webHide{
+    display: none;
+}
 /*-------------------------------*/
 /*     Topr nav styles        */
 /*-------------------------------*/
 .navbar{
     transition: background 0.2s ease-out 0.2s;
+        border: 0px solid transparent
 }
 
 /*-------------------------------*/
@@ -358,6 +362,13 @@ line-height: 22px;
     background-size: 100% 325px;
     height: 325px;
 }
+.landingBtn{
+    background: #572b7f;
+    color: white;
+    border-radius: 15px;
+    font-size: 22px;
+    padding: 15px 70px;
+}
 /*-------------------------------*/
 /*      Sign in page             */
 /*-------------------------------*/
@@ -495,6 +506,7 @@ a:focus, a:hover{
 }
 .foooter p{
     font-size: 16px;
+    line-height: 32px;
 }
 .foooter i{
     margin-right: 10px
@@ -685,7 +697,143 @@ color: #333333;
     .hamburger{
         right: 20px;
     }
-    .curriculum, .optionalFaq, .headingCenter, .certificationHeadingCenter1, .certificationHeadingCenter2, .earningHeadingCenter1, .earningHeadingCenter2, .mlr100, .getStudentsPara, .earningHeadingCenter4{
+    .curriculum, .optionalFaq, .headingCenter, .certificationHeadingCenter1, .certificationHeadingCenter2, .earningHeadingCenter1, .earningHeadingCenter2, .mlr100, .getStudentsPara, .earningHeadingCenter4, .ml50{
         margin: 0px;
+    }
+    .landingBackground{
+            background-size: 100% 352px;
+    height: 352px;
+        margin-bottom: 120px;
+    }
+    .mobileImgLanding8{
+        width: 60px;
+    }
+    .landingText h2{
+        font-size: 22px;
+    }
+    .landingText h1{
+        font-size: 32px;
+    }
+    .landingText{
+            margin: -35px 40px;
+    }
+    .landingBtn{
+        font-size: 14px;
+    }
+    .mobileShow{
+        display: block;
+    }
+    .mobileHide{
+        display: none;
+    }
+    .mobileImgCenter{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    .mmt40{
+        margin-top: 40px;
+    }
+    .mmb40{
+        margin-bottom: 40px;
+    }
+    .mml15{
+        margin-left: 15px;
+    }
+    .mmt20{
+        margin-top: 20px;
+    }
+    .mpl15{
+        padding-left: 15px;
+    }
+    .headingSupportImg{
+        width: 40px;
+        height: 40px;
+    }
+    .headingSupportImg {
+        margin-left: -30px;
+        margin-bottom: 5px;
+    }
+    .textSize, .curriculumApplyBtn{
+        font-size: 12px;
+    }
+    .textSize1{
+        font-size: 14px;
+            line-height: 22px;
+    }
+    .textSize2{
+        font-size: 16px;
+    }
+    .mobileStats{
+        padding: 20px 0px;
+    }
+    .working {
+        background: none;
+    }
+    .workingImg1, .workingImg3{
+        width: 90px;
+        height: 60px;
+    }
+    .workingImg2{
+        width: 82px;
+        height: 70px;
+    }
+    .workingImg4{
+        width: 58px;
+        height: 70px;
+    }
+    .landing h1{
+        font-size: 32px;
+    }
+    .landing p, .questionsDescription, .questionsPlus{
+        font-size: 14px;
+    }
+    .questionsPlus1{
+        font-size: 18px;
+    }
+    .panel-body ul{
+        font-size: 16px;
+    }
+    .curriculumBtn{
+        font-size: 12px;
+    }
+    .certificationImg1{
+        width: 95px;
+        height: 45px;
+        float: none;
+    }
+    .certificationBackground {
+    background: white url(../images/certification12.png) no-repeat center;
+        height: 640px;
+    }
+    .certificationImg2{
+        width: 45px;
+        float: none;
+    }
+    .certificationImg3{
+        width: 75px;
+        float: none;
+    }
+    .certificationImg4{
+        width: 55px;
+        float: none;
+    }
+    #quote-carousel .carousel-control{
+        top: 175px;
+    }
+    .carousel-control.left{
+        left: -7px;
     }
 }
