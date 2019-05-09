@@ -73,6 +73,9 @@ h1{
 .ml-60{
     margin-left: -60px;
 }
+.mb75{
+    margin-bottom: 75px;
+}
 .mt85{
     margin-top: 85px;
 }
@@ -87,6 +90,9 @@ h1{
 }
 .mt130{
     margin-top: 130px;
+}
+.mt147{
+    margin-top: 147px;
 }
 .mt155{
     margin-top: 155px;
@@ -173,7 +179,7 @@ h1{
 }
 
 .headingCenter{
-        margin: 60px 423px;
+        margin: 75px 423px;
 }
 .float-right{
     float: right;
@@ -364,7 +370,7 @@ line-height: 22px;
 .landingBtn{
     background: #572b7f;
     color: white;
-    border-radius: 15px;
+    border-radius: 10px;
     font-size: 22px;
     padding: 15px 70px;
 }
@@ -651,6 +657,7 @@ color: #333333;
         border: 1px solid #ecf0f1;
     border-radius: 10px;
         padding: 50px 46px;
+    min-height: 250px;
 }
 .fa-long-arrow-alt-right{
         float: right;
@@ -706,18 +713,17 @@ color: #333333;
         margin: 0px;
     }
     .landingBackground{
-            background-size: 100% 352px;
-    height: 352px;
+        background: none; 
         margin-bottom: 120px;
     }
     .mobileImgLanding8{
         width: 60px;
     }
     .landingText h2{
-        font-size: 22px;
+        font-size: 25px;
     }
     .landingText h1{
-        font-size: 32px;
+        font-size: 35px;
     }
     .landingText{
             margin: -35px 40px;
@@ -766,10 +772,19 @@ color: #333333;
     .mmt65{
         margin-top: 65px;
     }
+    .mmt75{
+        margin-top: 75px;
+    }
     .mmt-100{
         margin-top: -100px;
     }
-    
+    .landingPlay{
+        width: 75px;
+        height: 75px;
+        position: relative;
+        bottom: 185px;
+        margin-left: auto !important;
+    }
     .headingSupportImg{
         width: 40px;
         height: 40px;
