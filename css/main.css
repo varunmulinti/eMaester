@@ -13,6 +13,9 @@ h1{
 .mt10{
     margin-top: 10px;
 }
+.mt-10{
+    margin-top: -10px;
+}
 .mt15{
     margin-top: 15px;
 }
@@ -207,6 +210,12 @@ h1{
 /* width */
 .sidenav::-webkit-scrollbar {
   display: none !important;
+}
+.sideNavContact{
+    margin-top: 200px;
+}
+.mobileSideNavImg{
+    margin-top: 120px;
 }
 .sidenav {
     overflow-y: scroll;
@@ -936,5 +945,16 @@ color: #333333;
     }
     .certificationGet h3{
         font-size: 16px;
+    }
+    .mobileSideNavImg img{
+        width: 100px;
+        height: 100px;
+    }
+    .mobileSideNavImg{
+        margin-left: -15px;
+        margin-top: 190px;
+    }
+    .sideNavContact{
+        margin-top: 210px;
     }
 }
