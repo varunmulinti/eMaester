@@ -768,14 +768,26 @@ width: 100px;
     h4{
         font-size: 16px;
     }
+    .mml-7{
+        margin-left: -7px;
+    }
     .mmt40{
         margin-top: 40px;
+    }
+    .mmb15{
+        margin-bottom: 15px;
+    }
+    .mmb-35{
+        margin-bottom: -35px;
     }
     .mmb40{
         margin-bottom: 40px;
     }
     .mml15{
         margin-left: 15px;
+    }
+    .mml20{
+        margin-left: 20px;
     }
     .mmt20{
         margin-top: 20px;
@@ -791,6 +803,9 @@ width: 100px;
     }
     .mmt-100{
         margin-top: -100px;
+    }
+    .mobileFloatNone{
+        float: unset !important;
     }
     .landingPlay{
         width: 75px;
@@ -810,8 +825,8 @@ width: 100px;
     .textSize, .curriculumApplyBtn{
         font-size: 12px;
     }
-    .textSize1{
-        font-size: 14px;
+    .textSize1, .mobileTextSize1{
+        font-size: 14px !important;
             line-height: 22px;
     }
     .textSize2, .mobileTextSize2{
@@ -961,5 +976,11 @@ width: 100px;
     }
     .sideNavContact{
         margin-top: 210px;
+    }
+    .learnMore img{
+        width: 32px;
+    }
+    .learnMore{
+            background-size: 97% 250px
     }
 }
